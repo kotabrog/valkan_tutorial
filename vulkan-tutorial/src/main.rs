@@ -84,6 +84,7 @@ impl App {
         let device = create_logical_device(&instance, &mut data)?;
         create_swapchain(window, &instance, &device, &mut data)?;
         create_swapchain_image_views(&device, &mut data)?;
+        create_pipeline(&device, &mut data)?;
         Ok(Self { entry, instance, data, device })
     }
 
@@ -448,6 +449,14 @@ unsafe fn create_swapchain_image_views(
         })
         .collect::<Result<Vec<_>, _>>()?;
 
+    Ok(())
+}
+
+//================================================
+// Pipeline
+//================================================
+
+unsafe fn create_pipeline(device: &Device, data: &mut AppData) -> Result<()> {
     Ok(())
 }
 
