@@ -1,4 +1,5 @@
 run:
+	cd shaders && ./compile.sh
 	RUST_LOG="info" cargo run
 
 test:

@@ -6,4 +6,7 @@
 !*.md
 !.gitignore
 !Makefile
+!*.frag
+!*.vert
+!*.sh
 target/
