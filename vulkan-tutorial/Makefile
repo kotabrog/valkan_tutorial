@@ -7,3 +7,6 @@ test:
 
 debug:
 	RUST_LOG="debug" cargo run
+
+compile_shader:
+	cd shaders && ./compile.sh

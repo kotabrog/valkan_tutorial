@@ -9,4 +9,5 @@
 !*.frag
 !*.vert
 !*.sh
+!*.bat
 target/
