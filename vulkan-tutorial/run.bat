@@ -1,1 +1,1 @@
-(set RUST_LOG=info) && cargo run
+(set RUST_LOG=info) && cargo run --release
